@@ -57,4 +57,8 @@ See ANNOTATION_GUIDE.md and QUALITY.md. Test rows: 43 reviewed by Moses (24M), 9
 Team 24, Kiswahili 5 (Moses, Krysia, Nathan). Corrections can be sent to the team by WhatsApp or email.
 
 ## Proposed release terms and pending decisions
-The 262 accepted rows are offered to the organisers for the NLP Hub combined corpus, with credit to Team 24 (Kiswahili 5); the team has not chosen a separate licence for the text and will follow the organisers' terms once announced. The 110 excluded rows are not released. Code licence follows the organiser kit.
+- **Use:** the organisers may add the 262 accepted rows to the combined NLP Hub corpus.
+- **Credit:** Team 24 (Kiswahili 5) is named as the source.
+- **Licence:** the team has not chosen a licence for the text and will follow the organisers' terms once announced.
+
+Code licence follows the organiser kit.

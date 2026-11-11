@@ -23,3 +23,14 @@ if st.button('Predict'):
     elif track=='intent':st.info('Simulated route only. No calendar, music, weather or other external action has been executed.')
     else:st.info('Sentence-level opinion label only; this is not emotion detection, sarcasm understanding or a diagnosis.')
 
+
+st.divider()
+st.subheader('Failure cases on the test set')
+errs_path=Path('artifacts')/track/'test_predictions.csv'
+if errs_path.exists():
+    import pandas as pd
+    df=pd.read_csv(errs_path)
+    if 'predicted' in df.columns and 'label' in df.columns:
+        wrong=df[df['label']!=df['predicted']][['record_id','text','label','predicted']].rename(columns={'label':'gold'})
+        st.write(f'{len(wrong)} of {len(df)} test rows were predicted wrongly (frozen baseline run).')
+        st.dataframe(wrong,hide_index=True)
