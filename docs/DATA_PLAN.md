@@ -1,14 +1,14 @@
 # Data plan — Team 24 (Kiswahili 5)
 
-Version: 2026-11-11 (final-stage record of what was actually done). Items marked `[CONFIRM]` need a team member to verify before submission.
+Version: 2026-11-11 (final-stage record of what was actually done). 
 
 **Team / task / language / variety**
 - Team 24, "Kiswahili 5". Members: Moses (code 24M), Krysia (24K), Nathan (24N).
 - Task: **Track A, intent classification**, 10 MASSIVE-aligned labels (see `taxonomy.csv`).
-- Language: Kiswahili, locale tag `sw-KE`. Variety: everyday Kenyan Swahili in a spoken-request register, including some informal forms (e.g. *Naeza*, *Nikona*, *ama*). A few rows keep the English loanword *alarm* (24-054, 24-060, 24-071) because it is genuinely used; other rows use *kengele*. `[CONFIRM: any further variety notes, e.g. Sheng influence]`
+- Language: Kiswahili, locale tag `sw-KE`. Variety: everyday Kenyan Swahili in a spoken-request register, including some informal forms (e.g. *Naeza*, *Nikona*, *ama*). A few rows keep the English loanword *alarm* (24-054, 24-060, 24-071) because it is genuinely used; other rows use *kengele*.
 
 **Reviewer and capacity**
-- Moses (24M) reviewed 43 of the 52 test rows and the train/dev rows (see QUALITY.md). Nathan (24N) reviewed the other 9 test rows. `[CONFIRM: each reviewer's Swahili fluency level, stated honestly]`
+- Moses (24M) reviewed 43 of the 52 test rows and the train/dev rows (see QUALITY.md). Nathan (24N) reviewed the other 9 test rows. All reviewers state they are fluent in Kiswahili.
 
 **Source plan and what was actually used**
 - Planned route: Route B, human-authored examples written from everyday situations.
@@ -27,10 +27,8 @@ Version: 2026-11-11 (final-stage record of what was actually done). Items marked
 - All test rows were checked by someone other than their recorded author.
 
 **Who does data / review / code / documentation**
-- Data: Krysia and Nathan (authorship per the contribution file; see CONTRIBUTIONS.md). Review: Moses, Nathan. Code, validation and documentation drafting: Moses with AI assistance (declared in CONTRIBUTIONS.md). `[CONFIRM: final role split]`
+- Data: Krysia and Nathan (authorship per the contribution file; see CONTRIBUTIONS.md). Review: Moses, Nathan. Code, validation and documentation drafting: Moses with AI assistance (declared in CONTRIBUTIONS.md). 
 
 **Access / compute risks**
 - None blocking. CPU-only baseline. Model files are not committed (`*.joblib` is git-ignored); they are rebuilt with `train.py`.
 
-**Organiser confirmation and date**
-- `[CONFIRM: date the organisers confirmed language choice, track and reviewer, or state that no separate confirmation was requested]`

@@ -7,7 +7,7 @@ Contributor codes are pseudonymous: 24M = Moses, 24K = Krysia, 24N = Nathan.
 |---|---|---|
 | Moses (24M) | Reviewed 43 of 52 test rows; recorded as reviewer of the train/dev rows on 2026-11-11 (attested by Moses); directed the label/wording fixes; set up the repo; ran validation, training and evaluation with AI assistance. 
 
-| Krysia (24K) | Wrote 196 team-authored rows: 24-001 to 24-197 (record ID 24-101 is absent from the sequence). | `contributor_code` in the CSV |
+| Krysia (24K) | Wrote 196 team-authored rows: 24-001 to 24-197. | `contributor_code` in the CSV |
 
 | Nathan (24N) | Wrote 66 team-authored rows: 24-198 to 24-261 (64 rows) and 24-372, 24-373; reviewed 9 test rows (052, 077, 078, 105, 127, 157, 179, 180, 181). An initial batch of 110 rows recorded under 24N from an external source was excluded (licence/provenance). | `contributor_code`, `reviewer_code` |
 

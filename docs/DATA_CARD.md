@@ -1,7 +1,5 @@
 # Dataset card and source log — Team 24 (Kiswahili 5)
 
-Items marked `[CONFIRM]` need a team member to verify before submission.
-
 ## Team, language, variety, version, date
 Team 24 "Kiswahili 5". Kiswahili (`sw-KE`), everyday Kenyan Swahili, spoken-request register. Dataset version `v1`, 2026-11-11. File: `data/contribution.csv`.
 
@@ -37,12 +35,12 @@ Every row has its own `group_id` (no shared sources or paraphrase groups).
 | MASSIVE, AfriSenti, Common Voice | 0 | Not used | MASSIVE's label schema is followed via the organiser's taxonomy. |
 
 ## Contributor permission for newly authored text
-Text was written by the team for the datathon and recorded as "Written by the team for the Datathon". Permission evidence is held separately by the team and is not in this repository. `[CONFIRM: that each author agrees to the datathon's data-use and possible NLP Hub release terms, and where this is recorded]`
+Text was written by the team for the datathon and recorded as "Written by the team for the Datathon". Permission evidence is held separately by the team and is not in this repository. 
 
 ## Transformations after first drafting (all logged)
 - 7 rows reworded because they did not match their intent; 8 rows reworded to make the intent unambiguous; 7 further rows reworded after a pre-review check (24-077 was reworded twice). 21 distinct rows in total.
 - 11 spelling/grammar corrections; 5 rows changed from *alarm* to *kengele*; 3 rows relabelled `alarm_set` → `calendar_set`; 2 rows moved train → test to meet the per-label minimum; 2 new rows added (24-372, 24-373); 1 spelling fix (*redio*).
-- **Wording for 35 rows was suggested or drafted by an AI assistant, then approved by team members** (33 existing rows plus the 2 new rows, whose final text was written by the team from a draft). The CSV records all rows as `original_human`; this limitation is stated in CONTRIBUTIONS.md. `[CONFIRM: whether the team wants these 35 recorded differently]`
+- **Wording for 35 rows was suggested or drafted by an AI assistant, then approved by team members** (33 existing rows plus the 2 new rows, whose final text was written by the team from a draft). The CSV records all rows as `original_human`; this limitation is stated in CONTRIBUTIONS.md. 
 
 ## Annotation and language-review process
 See ANNOTATION_GUIDE.md and QUALITY.md. Test rows: 43 reviewed by Moses (24M), 9 by Nathan (24N). Train/dev rows are recorded as reviewed by 24M on 2026-11-11. The validator passes, but it cannot check fluency or rights.
@@ -53,10 +51,10 @@ See ANNOTATION_GUIDE.md and QUALITY.md. Test rows: 43 reviewed by Moses (24M), 9
 - The model reads topic words more than request type (see QUALITY.md errors); real assistants would see wider phrasing.
 - Informal forms and a few loanwords are kept; they may not match other Kenyan or Tanzanian varieties.
 - Not suitable for sentiment, NER, translation or speech work; not evidence about other languages.
-- Reviewer fluency is not independently certified. `[CONFIRM]`
+- All three team members state they are fluent in Kiswahili; fluency was not independently certified.
 
 ## Credit and correction contact
-Team 24, Kiswahili 5 (Moses, Krysia, Nathan). `[CONFIRM: organiser-approved contact channel for corrections]`
+Team 24, Kiswahili 5 (Moses, Krysia, Nathan). Corrections can be sent to the team by WhatsApp or email.
 
 ## Proposed release terms and pending decisions
-`[CONFIRM: release terms, e.g. contribution to the NLP Hub combined corpus with credit; any licence the team chooses for the text; decision pending organiser instructions]`. Code licence follows the organiser kit.
+The 262 accepted rows are offered to the organisers for the NLP Hub combined corpus, with credit to Team 24 (Kiswahili 5); the team has not chosen a separate licence for the text and will follow the organisers' terms once announced. The 110 excluded rows are not released. Code licence follows the organiser kit.

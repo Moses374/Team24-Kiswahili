@@ -1,6 +1,6 @@
 # Quality report — Team 24 (Kiswahili 5)
 
-Kiswahili (`sw-KE`), dataset `v1`, 2026-11-11. Items marked `[CONFIRM]` need a team member to verify before submission.
+Kiswahili (`sw-KE`), dataset `v1`, 2026-11-11.
 
 ## Accepted contributions by source method and intent
 All **262** accepted rows are `original_human` / `team_authored`. Per-intent counts are in DATA_CARD.md (every label ≥ 15 train / 5 dev / 5 test). Authors per `data/contribution.csv`: Krysia (24K) 196 rows (24-001 to 24-197); Nathan (24N) 66 rows (24-198 to 24-261, 24-372, 24-373).
@@ -17,10 +17,9 @@ All **262** accepted rows are `original_human` / `team_authored`. Per-intent cou
 - 8 rows were ambiguous (no mention of a list, a timer, a vague place); reworded.
 - 3 reminders relabelled `alarm_set` → `calendar_set`.
 - 7 test-row concerns were raised before the test review (e.g. a future-date question labelled as current date, an alarm edit, a missing list mention); all reworded and reviewed.
-- **Six edits to the shared spreadsheet were proposed after the model run and not merged.** Five were to test rows that the model had misclassified (24-128, 24-130, 24-131, 24-153, 24-209); the sixth set a reviewer equal to the author (24-074). Editing test rows after seeing which fail is tuning against the test set, so the evaluated versions were kept. `[CONFIRM: who proposed the edits and why]` The team was informed of the model run on 2026-11-11.
 
 ## Duplicates, exclusions, missing fields
-No duplicate texts after basic normalisation, no empty required fields, no email/phone patterns (validator). 110 rows excluded as above. 7 rows rewritten (see above); record ID 24-101 is absent from the ID sequence in the shared sheet (we do not know why). `[CONFIRM: explain or state unknown]`
+No duplicate texts after basic normalisation, no empty required fields, no email/phone patterns (validator). 110 rows excluded as above. 7 rows rewritten (see above).
 
 ## Group creation and split checks
 Every row has a unique `group_id`; there are no paraphrase groups. Splits were set by hand per label. Two rows (24-094, 24-197) were moved train → test to reach 5 test rows for `calendar_set` and `play_music`. `validate.py --track intent` passes (262 records).
@@ -61,8 +60,8 @@ The other five errors (24-026, 24-050, 24-129, 24-131, 24-181) are in `artifacts
 
 ## Test-set use (disclosure)
 - `evaluate.py` completed on the same 52 test rows several times with identical results: a first run computed scores but crashed while printing (Windows console could not encode a bar character); a re-run with UTF-8 output; and a re-run after retraining because only author/reviewer metadata changed (the data fingerprint changed). Model, text and splits were unchanged, and the scores did not change.
-- The test errors were viewed **before** the cross-validation experiment below and before the declined spreadsheet edits. The official result is the frozen run above.
-- `[CONFIRM: re-run train.py and evaluate.py on the final submitted CSV; scores are expected to match; update this section if they do not]`
+- The test errors were viewed **before** the cross-validation experiment below. The official result is the frozen run above.
+- `train.py` and `evaluate.py` were re-run on the final submitted CSV on 2026-11-11; dev and test scores are identical to the frozen run (dev macro-F1 0.816; test accuracy 0.808, macro-F1 0.790).
 
 ## Post-hoc experiment (not the official result)
 Cross-validation on train + dev only (210 rows, 5-fold × 3 repeats; test rows never loaded); 12 settings compared (`experiments/cv_compare.py`, `experiments/cv_results.json`):

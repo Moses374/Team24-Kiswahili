@@ -1,6 +1,6 @@
 # Annotation guide — Team 24 (Kiswahili 5)
 
-Version 1.0, 2026-11-11. Track A, intent classification. Items marked `[CONFIRM]` need a team member to verify.
+Version 1.0, 2026-11-11. Track A, intent classification. 
 
 ## Task and exact label set
 Each record is **one written request in Kiswahili to a simulated assistant**. The label is the **action the user wants the assistant to take**, not a keyword in the sentence. Ten labels, exactly as in `taxonomy.csv` (MASSIVE-aligned):
@@ -9,7 +9,7 @@ Each record is **one written request in Kiswahili to a simulated assistant**. Th
 Quick test for a record: (1) Is it a request to an assistant? (2) What single action would the assistant take? (3) Does that match one label's definition? (4) Does it pass that label's boundary rule? (5) Is it clear, natural and one intent? If any answer is no, exclude it and log why. We do not invent labels to make data fit.
 
 ## Primary language and spelling conventions
-- Kiswahili, `sw-KE`; everyday Kenyan Swahili in a spoken-request register. Informal forms that are genuinely used are kept (e.g. *Naeza*, *Nikona*, *ama*). `[CONFIRM: any Sheng or other variety notes]`
+- Kiswahili, `sw-KE`; everyday Kenyan Swahili in a spoken-request register. Informal forms that are genuinely used are kept (e.g. *Naeza*, *Nikona*, *ama*).
 - Standard spelling otherwise (e.g. *asilimia*, *Badilisha*, *redio*, proper nouns capitalised). Spelling corrections made during review are logged (see QUALITY.md).
 - The English loanword *alarm* is kept in three rows (24-054, 24-060, 24-071) as genuine code-switching; other alarm rows use *kengele*. We did not add English words to create variety.
 - Names, places, genres and teams (e.g. Sauti Sol, Harambee Stars, Zoom, hip hop) are kept as written.
@@ -46,7 +46,7 @@ Quick test for a record: (1) Is it a request to an assistant? (2) What single ac
 ## Independent review and disagreement resolution
 - Every test row was checked by a person other than its recorded author (43 by Moses/24M, 9 by Nathan/24N).
 - Concerns were raised before the test review (7 test rows with label or wording doubts). The team reworded them; because Moses had approved that wording, Nathan reviewed those rows he did not write; rows 24-209 and 24-235 (written by Nathan) were reviewed by Moses. No other reviewer disagreements were recorded.
-- Resolution rule: if the reviewer and author disagree on a label, the row is reworded to a clear single intent or excluded; it is never kept with a forced label. `[CONFIRM: add any additional disagreements the reviewers remember]`
+- Resolution rule: if the reviewer and author disagree on a label, the row is reworded to a clear single intent or excluded; it is never kept with a forced label. 
 
 ## Version and date
 - v1.0, 2026-11-11 (written at submission time from the working logs; its rules summarise the handbook definitions and the review decisions above, rather than being a document used before annotation).
