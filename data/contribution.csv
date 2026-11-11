@@ -195,69 +195,69 @@ record_id,language,text,label,source_dataset,source_version,source_record_id,sou
 24-195,sw-KE,Anza kucheza muziki wa kutuliza.,play_music,team_authored,v1,24-195,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-194,train
 24-196,sw-KE,Cheza nyimbo za rhumba za Kongo.,play_music,team_authored,v1,24-196,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-195,train
 24-197,sw-KE,Nataka kusikia nyimbo za Krismasi.,play_music,team_authored,v1,24-197,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-196,test
-24-198,sw-KE,Pigia wimbo wa Jambo Bwana.,play_music,team_authored,v1,24-198,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-197,train
-24-199,sw-KE,Cheza muziki wa kunipa nguvu kwa mazoezi.,play_music,team_authored,v1,24-199,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-198,train
-24-200,sw-KE,Weka nyimbo za Kiswahili za mapenzi.,play_music,team_authored,v1,24-200,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-199,dev
-24-201,sw-KE,Cheza ngoma za harusi.,play_music,team_authored,v1,24-201,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-200,dev
-24-202,sw-KE,Nichezee wimbo wa Malaika.,play_music,team_authored,v1,24-202,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-201,dev
-24-203,sw-KE,Rudia wimbo uliopita.,play_music,team_authored,v1,24-203,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-202,dev
-24-204,sw-KE,Cheza nyimbo za kuimba kwa sauti ya chini.,play_music,team_authored,v1,24-204,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-203,dev
-24-205,sw-KE,Washa muziki wa kusafiria.,play_music,team_authored,v1,24-205,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-204,test
-24-206,sw-KE,Cheza hip hop ya Kenya.,play_music,team_authored,v1,24-206,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-205,test
-24-207,sw-KE,Cheza kitu cha kunifurahisha.,play_music,team_authored,v1,24-207,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-206,test
-24-208,sw-KE,Anzisha nyimbo za kuchezea watoto.,play_music,team_authored,v1,24-208,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-207,test
-24-209,sw-KE,Washa ngoma ya zamani kwenye redio.,play_music,team_authored,v1,24-209,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-208,test
-24-210,sw-KE,Nipe habari za leo,news_query,team_authored,v1,24-210,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-209,train
-24-211,sw-KE,Habari kuu za asubuhi ni zipi?,news_query,team_authored,v1,24-211,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-210,train
-24-212,sw-KE,Nisomee vichwa vya habari,news_query,team_authored,v1,24-212,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-211,train
-24-213,sw-KE,Kuna habari gani za asubuhi?,news_query,team_authored,v1,24-213,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-212,train
-24-214,sw-KE,Nielezee habari za michezo za leo,news_query,team_authored,v1,24-214,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-213,train
-24-215,sw-KE,Habari za Kenya leo ni zipi?,news_query,team_authored,v1,24-215,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-214,train
-24-216,sw-KE,Nisomee habari za hivi punde.,news_query,team_authored,v1,24-216,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-215,train
-24-217,sw-KE,Nipe muhtasari wa habari za wiki.,news_query,team_authored,v1,24-217,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-216,train
-24-218,sw-KE,Kuna habari gani kuhusu bei ya mafuta?,news_query,team_authored,v1,24-218,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-217,train
-24-219,sw-KE,Habari za kimataifa ni zipi?,news_query,team_authored,v1,24-219,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-218,train
-24-220,sw-KE,Nionyeshe habari za kilimo.,news_query,team_authored,v1,24-220,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-219,train
-24-221,sw-KE,Nini kimetokea Nairobi leo?,news_query,team_authored,v1,24-221,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-220,train
-24-222,sw-KE,Habari za biashara za asubuhi hii.,news_query,team_authored,v1,24-222,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-221,train
-24-223,sw-KE,Nipe taarifa ya habari ya jioni.,news_query,team_authored,v1,24-223,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-222,train
-24-224,sw-KE,Kuna habari mpya kuhusu mechi ya Harambee Stars?,news_query,team_authored,v1,24-224,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-223,train
-24-225,sw-KE,Habari za teknolojia za leo ni zipi?,news_query,team_authored,v1,24-225,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-224,train
-24-226,sw-KE,Soma habari za Pwani.,news_query,team_authored,v1,24-226,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-225,dev
-24-227,sw-KE,Kuna habari za dharura sasa hivi?,news_query,team_authored,v1,24-227,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-226,dev
-24-228,sw-KE,Nipe habari za elimu na shule.,news_query,team_authored,v1,24-228,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-227,dev
-24-229,sw-KE,Habari mpya za bunge ni zipi?,news_query,team_authored,v1,24-229,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-228,dev
-24-230,sw-KE,Nini kinaendelea Afrika Mashariki?,news_query,team_authored,v1,24-230,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-229,dev
-24-231,sw-KE,Nieleze habari kuu tatu.,news_query,team_authored,v1,24-231,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-230,test
-24-232,sw-KE,Habari za afya za wiki hii ni zipi?,news_query,team_authored,v1,24-232,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-231,test
-24-233,sw-KE,"Nisomee habari za michezo, hasa kandanda.",news_query,team_authored,v1,24-233,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-232,test
-24-234,sw-KE,Kuna habari mpya kuhusu shilingi ya Kenya?,news_query,team_authored,v1,24-234,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-233,test
-24-235,sw-KE,Kuna habari gani mpya kutoka Pakistani?,news_query,team_authored,v1,24-235,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-234,test
-24-236,sw-KE,Neno uchumi lina maana gani?,qa_definition,team_authored,v1,24-236,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-235,train
-24-237,sw-KE,Maana ya mfumuko wa bei ni nini?,qa_definition,team_authored,v1,24-237,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-236,train
-24-238,sw-KE,Nini maana ya demokrasia?,qa_definition,team_authored,v1,24-238,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-237,train
-24-239,sw-KE,Usanisinuru ni nini?,qa_definition,team_authored,v1,24-239,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-238,train
-24-240,sw-KE,Eleza maana ya neno kodi.,qa_definition,team_authored,v1,24-240,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-239,train
-24-241,sw-KE,Ukame una maana gani?,qa_definition,team_authored,v1,24-241,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-240,train
-24-242,sw-KE,Maana ya methali haraka haraka haina baraka ni nini?,qa_definition,team_authored,v1,24-242,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-241,train
-24-243,sw-KE,Neno teknolojia linamaanisha nini?,qa_definition,team_authored,v1,24-243,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-242,train
-24-244,sw-KE,Nielezee maana ya uhifadhi wa mazingira.,qa_definition,team_authored,v1,24-244,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-243,train
-24-245,sw-KE,Mtandao wa intaneti ni nini?,qa_definition,team_authored,v1,24-245,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-244,train
-24-246,sw-KE,Kamusi inasema nini kuhusu neno uzalendo?,qa_definition,team_authored,v1,24-246,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-245,train
-24-247,sw-KE,Hisa ni nini katika biashara?,qa_definition,team_authored,v1,24-247,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-246,train
-24-248,sw-KE,Elezea neno bajeti.,qa_definition,team_authored,v1,24-248,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-247,train
-24-249,sw-KE,Neno ushuru lina maana sawa na kodi?,qa_definition,team_authored,v1,24-249,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-248,train
-24-250,sw-KE,Maana ya neno mgogoro ni nini?,qa_definition,team_authored,v1,24-250,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-249,train
-24-251,sw-KE,Ugatuzi ni nini?,qa_definition,team_authored,v1,24-251,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-250,train
-24-252,sw-KE,Nini maana ya neno mkopo?,qa_definition,team_authored,v1,24-252,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-251,dev
-24-253,sw-KE,Fafanua dhana ya utandawazi.,qa_definition,team_authored,v1,24-253,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-252,dev
-24-254,sw-KE,Maana ya msamiati halijoto ni nini?,qa_definition,team_authored,v1,24-254,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-253,dev
-24-255,sw-KE,Neno afya linamaanisha nini hasa?,qa_definition,team_authored,v1,24-255,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-254,dev
-24-256,sw-KE,Kitenzi ni nini katika sarufi?,qa_definition,team_authored,v1,24-256,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-255,dev
-24-257,sw-KE,Nielezee maana ya mapato na matumizi.,qa_definition,team_authored,v1,24-257,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-256,test
-24-258,sw-KE,Kiwango cha ubadilishaji kina maana gani?,qa_definition,team_authored,v1,24-258,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-257,test
-24-259,sw-KE,Neno mazao lina maana gani shambani?,qa_definition,team_authored,v1,24-259,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-258,test
-24-260,sw-KE,Tafadhali fafanua neno wanyamapori.,qa_definition,team_authored,v1,24-260,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-259,test
-24-261,sw-KE,Mtu anaposema mwenda tezi na omo marejeo ni ngamani wanamaanisha?,qa_definition,team_authored,v1,24-261,not_applicable,original_human,Written by the team for the Datathon,24N,24M,independently_reviewed,g24-260,test
+24-198,sw-KE,Pigia wimbo wa Jambo Bwana.,play_music,team_authored,v1,24-198,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-197,train
+24-199,sw-KE,Cheza muziki wa kunipa nguvu kwa mazoezi.,play_music,team_authored,v1,24-199,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-198,train
+24-200,sw-KE,Weka nyimbo za Kiswahili za mapenzi.,play_music,team_authored,v1,24-200,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-199,dev
+24-201,sw-KE,Cheza ngoma za harusi.,play_music,team_authored,v1,24-201,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-200,dev
+24-202,sw-KE,Nichezee wimbo wa Malaika.,play_music,team_authored,v1,24-202,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-201,dev
+24-203,sw-KE,Rudia wimbo uliopita.,play_music,team_authored,v1,24-203,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-202,dev
+24-204,sw-KE,Cheza nyimbo za kuimba kwa sauti ya chini.,play_music,team_authored,v1,24-204,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-203,dev
+24-205,sw-KE,Washa muziki wa kusafiria.,play_music,team_authored,v1,24-205,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-204,test
+24-206,sw-KE,Cheza hip hop ya Kenya.,play_music,team_authored,v1,24-206,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-205,test
+24-207,sw-KE,Cheza kitu cha kunifurahisha.,play_music,team_authored,v1,24-207,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-206,test
+24-208,sw-KE,Anzisha nyimbo za kuchezea watoto.,play_music,team_authored,v1,24-208,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-207,test
+24-209,sw-KE,Washa ngoma ya zamani kwenye redio.,play_music,team_authored,v1,24-209,not_applicable,original_human,Written by the team for the Datathon,24K,24N,independently_reviewed,g24-208,test
+24-210,sw-KE,Nipe habari za leo,news_query,team_authored,v1,24-210,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-209,train
+24-211,sw-KE,Habari kuu za asubuhi ni zipi?,news_query,team_authored,v1,24-211,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-210,train
+24-212,sw-KE,Nisomee vichwa vya habari,news_query,team_authored,v1,24-212,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-211,train
+24-213,sw-KE,Kuna habari gani za asubuhi?,news_query,team_authored,v1,24-213,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-212,train
+24-214,sw-KE,Nielezee habari za michezo za leo,news_query,team_authored,v1,24-214,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-213,train
+24-215,sw-KE,Habari za Kenya leo ni zipi?,news_query,team_authored,v1,24-215,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-214,train
+24-216,sw-KE,Nisomee habari za hivi punde.,news_query,team_authored,v1,24-216,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-215,train
+24-217,sw-KE,Nipe muhtasari wa habari za wiki.,news_query,team_authored,v1,24-217,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-216,train
+24-218,sw-KE,Kuna habari gani kuhusu bei ya mafuta?,news_query,team_authored,v1,24-218,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-217,train
+24-219,sw-KE,Habari za kimataifa ni zipi?,news_query,team_authored,v1,24-219,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-218,train
+24-220,sw-KE,Nionyeshe habari za kilimo.,news_query,team_authored,v1,24-220,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-219,train
+24-221,sw-KE,Nini kimetokea Nairobi leo?,news_query,team_authored,v1,24-221,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-220,train
+24-222,sw-KE,Habari za biashara za asubuhi hii.,news_query,team_authored,v1,24-222,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-221,train
+24-223,sw-KE,Nipe taarifa ya habari ya jioni.,news_query,team_authored,v1,24-223,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-222,train
+24-224,sw-KE,Kuna habari mpya kuhusu mechi ya Harambee Stars?,news_query,team_authored,v1,24-224,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-223,train
+24-225,sw-KE,Habari za teknolojia za leo ni zipi?,news_query,team_authored,v1,24-225,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-224,train
+24-226,sw-KE,Soma habari za Pwani.,news_query,team_authored,v1,24-226,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-225,dev
+24-227,sw-KE,Kuna habari za dharura sasa hivi?,news_query,team_authored,v1,24-227,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-226,dev
+24-228,sw-KE,Nipe habari za elimu na shule.,news_query,team_authored,v1,24-228,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-227,dev
+24-229,sw-KE,Habari mpya za bunge ni zipi?,news_query,team_authored,v1,24-229,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-228,dev
+24-230,sw-KE,Nini kinaendelea Afrika Mashariki?,news_query,team_authored,v1,24-230,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-229,dev
+24-231,sw-KE,Nieleze habari kuu tatu.,news_query,team_authored,v1,24-231,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-230,test
+24-232,sw-KE,Habari za afya za wiki hii ni zipi?,news_query,team_authored,v1,24-232,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-231,test
+24-233,sw-KE,"Nisomee habari za michezo, hasa kandanda.",news_query,team_authored,v1,24-233,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-232,test
+24-234,sw-KE,Kuna habari mpya kuhusu shilingi ya Kenya?,news_query,team_authored,v1,24-234,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-233,test
+24-235,sw-KE,Kuna habari gani mpya kutoka Pakistani?,news_query,team_authored,v1,24-235,not_applicable,original_human,Written by the team for the Datathon,24K,24N,independently_reviewed,g24-234,test
+24-236,sw-KE,Neno uchumi lina maana gani?,qa_definition,team_authored,v1,24-236,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-235,train
+24-237,sw-KE,Maana ya mfumuko wa bei ni nini?,qa_definition,team_authored,v1,24-237,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-236,train
+24-238,sw-KE,Nini maana ya demokrasia?,qa_definition,team_authored,v1,24-238,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-237,train
+24-239,sw-KE,Usanisinuru ni nini?,qa_definition,team_authored,v1,24-239,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-238,train
+24-240,sw-KE,Eleza maana ya neno kodi.,qa_definition,team_authored,v1,24-240,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-239,train
+24-241,sw-KE,Ukame una maana gani?,qa_definition,team_authored,v1,24-241,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-240,train
+24-242,sw-KE,Maana ya methali haraka haraka haina baraka ni nini?,qa_definition,team_authored,v1,24-242,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-241,train
+24-243,sw-KE,Neno teknolojia linamaanisha nini?,qa_definition,team_authored,v1,24-243,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-242,train
+24-244,sw-KE,Nielezee maana ya uhifadhi wa mazingira.,qa_definition,team_authored,v1,24-244,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-243,train
+24-245,sw-KE,Mtandao wa intaneti ni nini?,qa_definition,team_authored,v1,24-245,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-244,train
+24-246,sw-KE,Kamusi inasema nini kuhusu neno uzalendo?,qa_definition,team_authored,v1,24-246,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-245,train
+24-247,sw-KE,Hisa ni nini katika biashara?,qa_definition,team_authored,v1,24-247,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-246,train
+24-248,sw-KE,Elezea neno bajeti.,qa_definition,team_authored,v1,24-248,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-247,train
+24-249,sw-KE,Neno ushuru lina maana sawa na kodi?,qa_definition,team_authored,v1,24-249,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-248,train
+24-250,sw-KE,Maana ya neno mgogoro ni nini?,qa_definition,team_authored,v1,24-250,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-249,train
+24-251,sw-KE,Ugatuzi ni nini?,qa_definition,team_authored,v1,24-251,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-250,train
+24-252,sw-KE,Nini maana ya neno mkopo?,qa_definition,team_authored,v1,24-252,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-251,dev
+24-253,sw-KE,Fafanua dhana ya utandawazi.,qa_definition,team_authored,v1,24-253,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-252,dev
+24-254,sw-KE,Maana ya msamiati halijoto ni nini?,qa_definition,team_authored,v1,24-254,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-253,dev
+24-255,sw-KE,Neno afya linamaanisha nini hasa?,qa_definition,team_authored,v1,24-255,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-254,dev
+24-256,sw-KE,Kitenzi ni nini katika sarufi?,qa_definition,team_authored,v1,24-256,not_applicable,original_human,Written by the team for the Datathon,24K,24K,self_reviewed,g24-255,dev
+24-257,sw-KE,Nielezee maana ya mapato na matumizi.,qa_definition,team_authored,v1,24-257,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-256,test
+24-258,sw-KE,Kiwango cha ubadilishaji kina maana gani?,qa_definition,team_authored,v1,24-258,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-257,test
+24-259,sw-KE,Neno mazao lina maana gani shambani?,qa_definition,team_authored,v1,24-259,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-258,test
+24-260,sw-KE,Tafadhali fafanua neno wanyamapori.,qa_definition,team_authored,v1,24-260,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-259,test
+24-261,sw-KE,Mtu anaposema mwenda tezi na omo marejeo ni ngamani wanamaanisha?,qa_definition,team_authored,v1,24-261,not_applicable,original_human,Written by the team for the Datathon,24K,24M,independently_reviewed,g24-260,test
 24-372,sw-KE,"Niamshe mapema kesho, kabla ya jua kuchomoza, nifike sokoni mapema.",alarm_set,team_authored,v1,24-372,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-372,train
 24-373,sw-KE,Jumapili piga kengele saa hii hii niende kanisani.,alarm_set,team_authored,v1,24-373,not_applicable,original_human,Written by the team for the Datathon,24N,24N,self_reviewed,g24-373,dev
